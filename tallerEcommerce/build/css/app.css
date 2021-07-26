@@ -16,6 +16,8 @@ main span{font-size:4rem;line-height:1}
 .iconos-taller{padding:2rem}
 @media (min-width:768px){.iconos-taller{display:flex;flex-direction:column}}
 .iconos-taller p{line-height:1.2;margin-bottom:10rem;font-size:3rem}
+.iconos-taller .icono-descripcion {padding: 0, 2rem!important;}
+@media (min-width:768px){.iconos-taller .icono-descripcion {font-size: 2.2rem;}}
 .iconos-taller p span{font-weight:700;display:block}
 .iconos-taller .icono{text-align:center;margin-bottom:10rem;flex:1}
 .iconos-taller .icono img{height:20rem}
@@ -31,5 +33,6 @@ main span{font-size:4rem;line-height:1}
 .modalidad p:last-of-type{margin-bottom:0}
 .modalidad span{display:block}
 .auspiciantes{background-color:#fff;display:flex;justify-content:center;align-items:center}
-.auspiciantes a{flex:1}
+.auspiciantes div{flex:1;}
+@media (min-width:768px){.auspiciantes img{ width:20rem; }.auspiciantes div{display: flex; justify-content: center;}}
 /*# sourceMappingURL=app.css.map */
